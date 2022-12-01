@@ -23,7 +23,6 @@ After completing tasks for the day it's sometimes difficult to decide how to bes
  - [Amazon Prime Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows)
  - [Hulu Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/hulu-movies-and-tv-shows)
  - [Disney+ Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/disney-movies-and-tv-shows)
- - [Spotify Recommendation](https://www.kaggle.com/datasets/bricevergnou/spotify-recommendation)
  - [Bestselling Books Amazon Dataset](https://www.kaggle.com/datasets/shreyamishra0307/bestselling-books-amazon-dataset)
  - [Audible Complete Catalog](https://www.kaggle.com/datasets/amritvirsinghx/audible-complete-catalog)
 
