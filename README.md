@@ -1,23 +1,28 @@
 # final_project
 
-## Project Overview
+# Project Overview
 After completing tasks for the day it's sometimes difficult to decide how to best use one's remainig time before having to go to bed. Using Machine Learning and Neural Networks to create an application that, after asking several questions, will recommend the best activity to engage in to unwind at the end of their day. These recommendations will be for the following: passive [e.g., movies & TV, reading, music] or active [e.g., yoga, playing video games, going for a walk]. As we will be pulling from multiple datasets with user-reviews we will be developing and implementing an item-based collaborative filter with the available data.
 
-### Example Questions
+## Example Questions
 
  - Do you want to...
     - Improve yourself?
     - Distract yourself?
     - Relax?
- - [If Improve] 
+ - [If Improve] What do you want to improve?
+    - Body
+    - Mind
+    - Skill
  - [If Distract] What platforms do you have access to? (Select all)
     - Netflix
     - Amazon Prime
     - Disney+
     - Hulu
- - [If Relax]
+ - [If Relax] Which seems more appealing?
+    - Bath & Music
+    - Take a walk
 
-### Datasets Used
+## Datasets Used
  - [Top 100 Anime Movies](https://www.kaggle.com/datasets/ayessa/top-100-anime-movies-imdb)
  - [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
  - [Amazon Prime Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows)
@@ -25,10 +30,12 @@ After completing tasks for the day it's sometimes difficult to decide how to bes
  - [Disney+ Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/disney-movies-and-tv-shows)
  - [Bestselling Books Amazon Dataset](https://www.kaggle.com/datasets/shreyamishra0307/bestselling-books-amazon-dataset)
  - [Audible Complete Catalog](https://www.kaggle.com/datasets/amritvirsinghx/audible-complete-catalog)
+ - [Fitness Exercises](https://www.kaggle.com/datasets/edoardoba/fitness-exercises-with-animations)
 
 
-### Type of Learning Model
-Supervised Learning Algorithms 
-Decision Tree
+## Compiling, Training, and Evaluating the Model
 
-### 
+### Machine Learning Model
+Supervised Learning Algorithms: Decision Tree
+
+# Results
