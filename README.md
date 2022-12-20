@@ -1,41 +1,32 @@
-# final_project
+# East Coast v West Coast Airbnb Analysis
 
 # Project Overview
-After completing tasks for the day it's sometimes difficult to decide how to best use one's remainig time before having to go to bed. Using Machine Learning and Neural Networks to create an application that, after asking several questions, will recommend the best activity to engage in to unwind at the end of their day. These recommendations will be for the following: passive [e.g., movies & TV, reading, music] or active [e.g., yoga, playing video games, going for a walk]. As we will be pulling from multiple datasets with user-reviews we will be developing and implementing an item-based collaborative filter with the available data.
+This project aims to explore listing data from Airbnb's [Boston](https://www.kaggle.com/datasets/airbnb/boston) and [Seattle](https://www.kaggle.com/datasets/airbnb/seattle), provided by [Kaggle](https://www.kaggle.com/), to determine the following questions:
 
-## Example Questions
+ 1. What month is the best to travel? 
+ 2. Is there much variance between neighborhoods? Or coasts?
+ 3. What factors determine the price of an airbnb?
 
- - Do you want to...
-    - Improve yourself?
-    - Distract yourself?
-    - Relax?
- - [If Improve] What do you want to improve?
-    - Body
-    - Mind
-    - Skill
- - [If Distract] What platforms do you have access to? (Select all)
-    - Netflix
-    - Amazon Prime
-    - Disney+
-    - Hulu
- - [If Relax] Which seems more appealing?
-    - Bath & Music
-    - Take a walk
+We will use Boston to represent the east coast and Seattle, the west. The data is far from thorough enough, but we will use it to provide some insight into the questions that we have laid out. To determine the third question we will utilize supervised machine learning to evaluate what the most important factors in pricing are. 
 
-## Datasets Used
- - [Top 100 Anime Movies](https://www.kaggle.com/datasets/ayessa/top-100-anime-movies-imdb)
- - [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
- - [Amazon Prime Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows)
- - [Hulu Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/hulu-movies-and-tv-shows)
- - [Disney+ Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/disney-movies-and-tv-shows)
- - [Bestselling Books Amazon Dataset](https://www.kaggle.com/datasets/shreyamishra0307/bestselling-books-amazon-dataset)
- - [Audible Complete Catalog](https://www.kaggle.com/datasets/amritvirsinghx/audible-complete-catalog)
- - [Fitness Exercises](https://www.kaggle.com/datasets/edoardoba/fitness-exercises-with-animations)
+Tableau (to add)
 
+# Results
+
+## Important Disclosures
+
+The datasets that were utilized both span the course of 12 months, though the Boston data cover September 2016 through August 2017.
+
+## Data Preprocessing 
+
+Importing 
 
 ## Compiling, Training, and Evaluating the Model
 
-### Machine Learning Model
-Supervised Learning Algorithms: Decision Tree
 
-# Results
+<img src="<link>" width="300">
+
+
+
+# Summary
+
