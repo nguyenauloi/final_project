@@ -1,5 +1,10 @@
 # East Coast v West Coast Airbnb Analysis
 
+# Table of Contents:
+1. [Project Overview](#project-overview)
+2. [Results](#results)
+3. 
+
 # Project Overview
 This project aims to explore listing data from Airbnb's [Boston](https://www.kaggle.com/datasets/airbnb/boston) and [Seattle](https://www.kaggle.com/datasets/airbnb/seattle), provided by [Kaggle](https://www.kaggle.com/), to determine the following questions:
 
@@ -15,18 +20,35 @@ Tableau (to add)
 
 ## Important Disclosures
 
-The datasets that were utilized both span the course of 12 months, though the Boston data cover September 2016 through August 2017.
+The datasets that were utilized both span the course of 12 months, though the Boston data cover September 2016 through August 2017. Information from Seattle's January and Boston's September should be observed with some skepticism. 
 
 ## Data Preprocessing 
 
-Importing 
+After downloading the datasets from Kaggle we imported the review, calendar, and listing csvs into our Jupyter Notebook. While the dataset was rich in information, most of it would be unnecessary for our project. While other columns needed to be processed in order to extract useful information, e.g., the date related columns needed to be coverted using datetime and strptime while the 'available' column needed to be converted from t/f to binary. This processes had to be repeated for each dataset. 
 
-## Compiling, Training, and Evaluating the Model
-
+After processing the information we were ready to create our visualizations to answer our questions. First, we wanted to figure out what was the best time to travel. In order to answer this question it was decided that availability rate of Airbnbs were inversely related to the best, and least crowded, time to travel. Here we see that units are easily available throughout the year in both Seattle and Boston, with some swell in the summer months. 
 
 <img src="<link>" width="300">
 
+Next we wanted to check if there was any difference in price throughout the year. From the charts here we can see that the average price of an Airbnb increases with the summer swell in both Seattle and Boston. In Boston, we are also able to observe a sharp decrease in availability and an increase in price from April to October. 
 
+<img src="<link>" width="300">
+
+<img src="<link>" width="300">
+
+Next, we wanted to know if there was much variation between neighborhoods within each airbnb market. Similar to the first question, we had to clean up our data in order to extract important information from it. We selected the following columns: 'review_scores_value','accommodates', 'bathrooms', 'bedrooms', 'beds', 'cancellation_policy', "id" 'host_is_superhost', 'extra_people', 'property_type', 'room_type', 'price', 'neighbourhood_cleansed' and created a new dataframe for each market as well as standardizing the pricing data. 
+
+What we learned was that there was great variation between the prices of airbnb listings
+TODO
+
+## Compiling, Training, and Evaluating the Model
+
+For our third question we wanted to know to what affect does certain factors affect pricing in Airbnbs (e.g., review scores, extra people, number of (beds, bathrooms), or even if the host is a superhost). To accomplish this we needed to create a learning model that would evaluate this for us. After creating a heatmap to see the strength of relationship between certain variables. We are able to see that 'review scores value' share the weakest relationship with the rest of the variables, and was thus dropped, while 'accommodates', 'bathrooms', 'bedrooms', and 'beds' share the strongest relationship with the price.
+
+<img src="<link>" width="300">
+
+We decided to move forward with the random forest regressor to sample our data. From our results we were able to determine that the leading factor in either market was the number of bedrooms and bathroom.
 
 # Summary
 
+Pricing 
