@@ -3,7 +3,7 @@
 # Table of Contents:
 1. [Project Overview](#project-overview)
 2. [Results](#results)
-3. 
+3. [Summary](#summary)
 
 # Project Overview
 This project aims to explore listing data from Airbnb's [Boston](https://www.kaggle.com/datasets/airbnb/boston) and [Seattle](https://www.kaggle.com/datasets/airbnb/seattle), provided by [Kaggle](https://www.kaggle.com/), to determine the following questions:
