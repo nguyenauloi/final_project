@@ -14,7 +14,6 @@ This project aims to explore listing data from Airbnb's [Boston](https://www.kag
 
 We will use Boston to represent the east coast and Seattle, the west. The data is far from thorough enough, but we will use it to provide some insight into the questions that we have laid out. To determine the third question we will utilize supervised machine learning to evaluate what the most important factors in pricing are. 
 
-Tableau (to add)
 
 # Results
 
@@ -47,8 +46,17 @@ For our third question we wanted to know to what affect does certain factors aff
 
 <img src="<link>" width="300">
 
-We decided to move forward with the random forest regressor to sample our data. From our results we were able to determine that the leading factor in either market was the number of bedrooms and bathroom.
+We decided to move forward with the random forest regressor to sample our data. From our results we were able to determine that the leading factor in either market was the number of bedrooms and bathroom. 
+
+## Under Construction
+
+Future additions to this project will be the following:
+ - Using BeautifulSoup to scrape from websites like Kayak
+ - Store data in PostgreSQL & AWS
+ - Create website/app that would calculate the price  of your trip based on future airline data and historical Airbnb prices at the click of a button
 
 # Summary
 
-Pricing 
+It seems redundant, but the best value comes from renting airbnb during the winter months and to rent away from metropolises. This seems to stay consistent across different markets (cities).
+
+[Tableau Link](https://public.tableau.com/views/final_project_16715086367700/Story2?:language=en-US&:display_count=n&:origin=viz_share_link)
